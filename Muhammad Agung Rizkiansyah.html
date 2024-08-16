@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkenalan Diri - Agung</title>
+</head>
+<style>
+    body {
+    max-width: 1920px;
+    max-height: 1080px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(bkg.jpg);
+    background-size: cover;
+    color: white;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.left-side {
+    position: relative;
+    left: 380px;
+    top: 90px;
+    text-align: left;
+}
+
+.left-side h1 {
+    font-size: 3.5em;
+    font-weight: normal;
+    margin: 0;
+}
+
+.left-side h1 span {
+    font-weight: bold;
+    color: rgb(79, 79, 168);
+    transition: 0.2s;
+}
+
+.left-side h1 span:hover {
+    color:rgb(200, 200, 252);
+}
+
+.left-side .NIM {
+    position: relative;
+    left: 250px;
+    margin-top: 5px;
+    font-size: 1em;
+    letter-spacing: 6px;
+    color: rgb(46, 46, 71);
+    transition: color 0.5s;
+}
+
+.left-side .NIM:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.left-side .nama {
+    position: relative;
+    bottom: 110px;
+    left: 250px;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    color: rgb(46, 46, 71);
+    margin-top: 5px;
+    transition: color 0.5s;
+}
+
+.left-side .nama:hover {
+    color : white;
+    font-weight: bold;
+}
+
+.center .photo-frame {
+    position: relative;
+    bottom: 110px;
+    left:130px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 0px solid white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.center img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.center .photo-frame:hover {
+    border: 0px solid white;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
+}
+
+.right-side {
+    position: absolute;
+    left: 1130px;
+    bottom: 486px;
+    max-width: 500px;
+    text-align: justify;
+    font-size: 1.2em;
+    color: rgb(229, 229, 253);
+}
+
+.social-media {
+    position: absolute;
+    bottom: 327px;
+    left: 866px;
+    display: flex;
+    gap: 80px;
+    transition: 0.5s;
+}
+
+.social-media a img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 6px;
+    transition: 0.15s;
+}
+
+.social-media a img:hover {
+    position: absolute;
+    bottom: 9px;
+    gap: 20px;
+}
+
+.kotak {
+    display:inline-block;
+    position: relative;
+    top: 290px;
+    left: 300px;
+    width: 1350px;
+    height: 280px;
+    background-color: rgb(0, 0, 44);
+    border-radius: 100px;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.kotak:hover{
+    background-color:rgb(0, 0, 39) ;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.persegi1 {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(0, 0, 44);
+    position: relative;
+    right: 550px;
+    top: 60px;
+    border-radius: 30px;
+    opacity: 0.5;
+}
+
+.bawah {
+    position: relative;
+    bottom: 530px;
+    left: 125px;
+}
+
+.persegi2 {
+    width: 300px;
+    height: 70px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    left: 817px;
+    bottom: 322px;
+}
+
+h2 {
+    color: rgb(166, 168, 46);
+    font-style: italic;
+    transition: 0.3s;
+    position: absolute;
+    left: 720px;
+    top: 95px;
+    text-align: center;
+}
+
+h2:hover {
+    color: rgb(251, 255, 34) ;
+    font-size: 3vh;
+    position: absolute;
+    left: 700px;
+
+}
+
+
+q   
+
+</style>
+<body>
+    <div class="container">
+        <div class="bingkai"></div>
+        <div class="kotak"></div>
+        <div class="persegi1"></div>
+        <div class="left-side">
+            <h1>Hello, I’m <span>Agung</span></h1>
+            <p class="NIM">G64101231096</p>
+            <p class="nama">Muhammad Agung Rizkiansyah</p>
+        </div>
+        <div class="center">
+            <div class="photo-frame">
+                <img src="perkenalan.png" alt="Foto Agung">
+            </div>
+        </div>
+        <div class="right-side">
+            <p>I am a 18 years old Computer Science Student at IPB University who seek to learn many things possible. I’m focused on exploring my interest and talents for the future.</p>
+        </div>
+        <div class="bawah">
+            <h2>Let's Get To Know!</h2>
+        </div>
+        <div class="persegi2"></div>
+        <div class="social-media">
+            <a href="https://wa.me/6281290349451"><img src="whatsapp.png" alt="WhatsApp"></a>
+            <a href="https://www.instagram.com/mhmdagungr_/"><img src="instagram.png" alt="Instagram"></a>
+            <a href="https://line.me/ti/p/CvfBxpfRzb"><img src="line.png" alt="LINE"></a>
+        
+        
+            
+        </div>
+    </div>
+</body>
+</html>
